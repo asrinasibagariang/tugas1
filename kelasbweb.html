@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+
+<style>
+body{
+	background-color: Lavender;
+}
+
+.container {
+
+    width: 800px;
+    height: 1500px;
+    border: 3px solid blue;
+    margin:auto;
+    position: relative; 
+    top: 100px;
+    
+}
+
+.judul {
+    width: 800px;
+    height: 100px;
+    border: 1px solid yellow;
+    padding-left: 20px;
+    padding-top: 20px;
+    box-sizing: border-box;
+
+
+}
+
+.judul .judulatas {
+    font-size: 30px;
+    text-shadow: 3px 2px red;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+.menu {
+    width: 800px;
+    height: 50px;    
+    border: 1px solid black;
+    padding-top: 20px;
+    padding-left: 20px;
+    box-sizing: border-box;
+	
+}
+
+.menu a{
+    text-decoration: none;
+    color:salmon;
+	background-color: cornflower blue;
+}
+
+.menu a:hover{
+    background-color:  lightskyblue;
+    color:white;
+}
+
+.banner {
+
+    background-color: lightblue;
+    background-image: url(bg.jpg);
+    width: 800px;
+    height: 250px;
+    background-image: url(banner.jpg);
+    background-size: cover;
+    background-position-y:-150px;
+    
+}
+
+.judulartikel {
+
+    padding-left: 20px;
+    padding-top: 20px;
+}
+
+.konten {
+width: 800px;
+height: 400px;
+padding: 20px 20px 20px 20px;
+box-sizing: border-box;
+background-color: thistle;
+overflow: auto;
+    
+}
+
+.konten img {
+
+    float: left;
+    padding: 20px 20px;
+}
+
+.gallery {
+    border-radius: 10px;
+    background-color: turquoise ;
+    margin: 5px 5px 5px 5px;
+    width: 180px;
+    height: 250px;
+    float: left;
+}
+
+
+
+.thumbnail {
+    border-radius: 5px;
+    width: 170px;
+    height: 60px;
+    margin: 10px auto;
+    background-color: violet;
+}
+.ribbon {
+
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    background-image: url(ribbon.png);
+    left:700px;
+    top:-20px;
+    border: 1px solid blue;
+}
+
+
+.layarhitam {
+
+border-radius: 5px;
+width: 200px;
+height: 50px;
+position: absolute;
+left:10px;
+top:30px;
+background-color:yellow;
+opacity: 0.5;
+border: 1px solid yellow;
+}
+
+
+.panel_mode {
+
+    width: 150px;
+    height: 100px;
+    background-color: blue violet
+    border-radius: 10px;
+    position: fixed;
+    left:1150px;
+
+}
+
+
+
+
+.cobaevent {
+
+    width: 100px;
+    height: 100px;
+    background-color: yellow;
+
+}
+
+
+.cobaevent1 {
+
+width: 100px;
+height: 100px;
+background-color:blue;
+
+}
+
+
+.cobaevent2 {
+
+width: 100px;
+height: 100px;
+background-color: red;
+
+}
+</style>
+
+
+
+</head>
+<body>
+    
+
+    <div class="panel_mode">
+<br>
+<center>
+        <button type="button" onclick="ubahwarna_dark()">Mode Malam Hari</button>
+
+
+        <br>
+        <br>
+
+        <button type="button" onclick="ubahwarna_light()">Mode Siang Hari</button>
+    </center>
+
+
+    </div>
+
+
+
+    <div class="container">
+
+        <div class="layarhitam"></div>
+<div class="ribbon">    </div>
+
+<div class="judul">
+
+<h1 class="judulatas">My Website</h1>
+
+</div>
+
+
+<div class="menu">
+
+    <a href="#">Home</a>
+
+    <a href="#">Profil</a>
+
+    <a href="#">Contact</a>
+
+
+</div>
+
+<div class="banner">
+
+    
+</div>
+
+
+<div class="judulartikel">
+<h2>UNIVERSITAS BRAWIJAYA</h2>
+<p> ASRINA SIBAGARIANG</p>
+
+</div>
+
+
+<div id="konten" class="konten">
+
+
+    <img src="ub.jpg" width=200px height=200px>>
+
+	<p>Misi:
+Menyelenggarakan pendidikan berstandar internasional agar peserta didik menjadi manusia yang berkemampuan akademik dan atau profesi atau vokasi yang berkualitas dan berkepribadian serta berjiwa dan/atau berkemampuan entrepreneur.
+Melakukan pengembangan dan penyebarluasan ilmu pengetahuan, teknologi, humaniora dan seni, serta mengupayakan penggunaannya untuk meningkatkan taraf kehidupan masyarakat dan memperkaya kebudayaan nasional.
+Tujuan:
+Menghasilkan sumberdaya manusia yang berkualitas, bertaqwa kepada Tuhan Yang Maha Esa, mampu membelajarkan diri, memiliki wawasan yang luas, memiliki disiplin dan etos kerja, sehingga menjadi tenaga akademis dan professional yang tangguh dan mampu bersaing di tingkat internasional
+Mengembangkan ilmu pengetahuan, teknologi, dan seni guna mendorong pengembangan budaya
+Membantu pemberdayaan masyarakat melalui penerapan ilmu pengetahuan dan teknologi
+Melihat rumusan dari visi, misi, dan tujuan dari Univeristas Brawijaya yang baik, tentunya hal ini membawa pencapaian prestasi yang baik pula bagi universitas ini. Terbukti terlihat dari hasil pemeringkatan perguruan tinggi yang dilakukan oleh Kemenristekdikti (Kementerian Riset, Teknologi dan Pendidikan Tinggi) pada tahun 2016, Universitas Brawijaya berhasil meraih peringkat ke-5 perguruan tinggi terbaik se-Indonesia dengan jumlah total score 3,24. Universitas Brawijaya mengalami peningkatan setelah sebelumnya Universitas Brawijaya menempati posisi ke-6 dengan total score 3,21.
+
+Akreditasi
+Kemudian dalam pemeringkatan perguruan tinggi se-Asia, Universitas Brawijaya memasuki jajaran posisi 301-350 perguruan tinggi terbaik se-Asia. Sementara itu, untuk peringkat perguruan tinggi di dunia, Universitas Brawijaya memasuki peringkat 701+ menurut QS World University Rankings. Tak hanya itu, pada tahun 2013 Universitas Brawijaya mendapatkan rating 3 bintang dari QS Stars untuk Excellence 2013. Sebuah pencapaian yang membanggakan bukan?
+
+Di Universitas Brawijaya sendiri memiliki 15 fakultas, 1 program pendidikan Vokasi, dan 1 program pendidikan Pascasarjana yang terbagi menjadi 148 Program </p>
+
+</div>
+
+
+<br><br>
+
+<div class="pembungkusgallery">
+
+<div class="gallery"> 
+    
+<div class="thumbnail">
+    
+</div>
+<h2> Judul Berita</h2>
+<p>Ini adalah contoh berita <read more></p>
+</div>
+
+
+<div class="gallery"> 2 </div>
+
+<div class="gallery"> 3 </div>
+
+<div class="gallery"> 4 </div>
+
+<div class="gallery"> 5 </div>
+
+<div class="gallery"> 6 </div>
+
+<div class="gallery"> 7 </div>
+
+<div class="gallery"> 8 </div>
+
+</div>
+
+
+
+   
+</div>
+
+
+
+
+
+
+    </div>
+
+
+
+<div id="cobaeventku" class="cobaevent" onmouseup="divkelakuan()" onmousedown="divkelakuan1()"></div>
+
+
+<script>
+
+
+    function ubahwarna_dark(){
+
+       document.getElementById('konten').style.backgroundColor="black";
+       document.getElementById('konten').style.color="white";
+
+
+       }
+
+
+    function ubahwarna_light(){
+
+document.getElementById('konten').style.backgroundColor="yellow";
+document.getElementById('konten').style.color="black";
+
+
+
+}
+
+
+function divkelakuan(){
+
+document.getElementById('cobaeventku').className="cobaevent1";
+
+
+}
+
+function divkelakuan1(){
+
+document.getElementById('cobaeventku').className="cobaevent2";
+
+
+}
+
+
+
+</script>
+
+
+</body>
+</html>
